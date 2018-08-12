@@ -22,7 +22,7 @@ public class BasicArithmeticCalTest {
     /**
      * Test of sumar method, of class BasicArithmeticCal.
      */
-    @Test(expected = IllegalAccessException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void testSumarExecption() throws Exception {
         System.out.println("sumarException");
         Integer param1 = null;
